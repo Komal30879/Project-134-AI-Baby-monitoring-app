@@ -1,18 +1,37 @@
 body{
-    background-color: aqua;
+    background-color: coral;
 }
 
-.heading{
-    font-size: 23px;
+h1{
+    font-family: 'Square Peg', cursive;
+    color: azure;
     width: 100%;
-    margin: 0px;
+    font-size: 30px !important;
 }
 
-#status{
-    font-size: 18px;
+h3{
+    font-family: 'Updock', cursive;
+    color: honeydew;
+    font-size: 20px !important;
 }
 
 canvas{
-    box-shadow: 10px 10px 10px grey;
-    border-radius: 10px;
+    border: solid 3px whitesmoke;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.copyright_footer{
+    width: 100%;
+    position: fixed;
+
+}
+
+.copyright_footer{
+    position: fixed;
+    color: #F5F5F5;
+    bottom: 0;
+    width: 100%;
+    background-color: #6C757D;
+    line-height: 2;
+    text-align: center;
 }
